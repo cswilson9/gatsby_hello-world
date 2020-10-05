@@ -7,6 +7,7 @@ export default function About() {
         <Header headerText="About Gatsby" />
         <Header headerText="It's pretty cool." />
       <p>Such wow. Very React.</p>
+      <p>Following a Tutorial to Learn Gatsby.</p>
     </div>
   )
 }
