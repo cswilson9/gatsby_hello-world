@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <div style={{ color: `purple`}}>
       <Link to="/contact/">Contact</Link>
+      <p></p>
       <Link to="/about/">About</Link>
       <Header headerText="Hello Gatsby!" />
     <p>What a world!</p>
