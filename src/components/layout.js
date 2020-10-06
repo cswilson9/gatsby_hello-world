@@ -21,9 +21,8 @@ export default function Layout({ children }) {
         </ul>
       </header>
       {children}
-      <footer >Copyright 2020 Chris Wilson
-          <Link> <a href="https://github.com/koalitytester">GitHub</a></Link>
-          
+      <footer style={{ bottom: '0'}}>Copyright 2020 Chris Wilson
+          <Link style={{  float: `right` }}><a href="https://github.com/koalitytester">GitHub</a></Link>
       </footer>
     </div>
   )
