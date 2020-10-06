@@ -1,9 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
+import Layout from "../components/layout"
 
 export default function About() {
   return (
+    <Layout>
     <div style={{ color: `teal` }}>
         <Link to="/">Home</Link>
         <Header headerText="About Gatsby" />
@@ -17,5 +19,6 @@ export default function About() {
       <p>Such wow. Very React.</p>
       <p>Following a Tutorial to Learn Gatsby.</p>
     </div>
+    </Layout>
   )
 }
