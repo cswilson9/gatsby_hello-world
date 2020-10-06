@@ -21,6 +21,10 @@ export default function Layout({ children }) {
         </ul>
       </header>
       {children}
+      <footer >Copyright 2020 Chris Wilson
+          <Link> <a href="https://github.com/koalitytester">GitHub</a></Link>
+          
+      </footer>
     </div>
   )
 }
