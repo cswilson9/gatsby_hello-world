@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import styles from "./about-css-modules.module.css"
 import Container from "../components/container"
+import Layout from "../components/layout"
 console.log(styles)
 
 const User = props => (
@@ -16,6 +17,7 @@ const User = props => (
 
 export default function About() {
   return (
+      <Layout>
     <Container>
         <Link to="/">Home</Link>
         <h1>About CSS Modules</h1>
@@ -31,5 +33,6 @@ export default function About() {
         excerpt="I'm Bob Smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       />
     </Container>
+    </Layout>
   )
 }
